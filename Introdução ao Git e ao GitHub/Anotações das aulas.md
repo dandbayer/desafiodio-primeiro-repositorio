@@ -1,27 +1,25 @@
-# Estrogonofe de Frango
+# Anotações das aulas:
 
-## Ingredientes
+- CD = "change directory"
+  - / = volta pra raiz
+  - [nome da pasta] = entra na pasta
+  - .. = volta um nível
+- cls = limpa o terminal (CTRL + L no Git Bash)
+- Tecla tab autocompleta o texto
+- mkdir = "make directory" - mkdir nomedapasta = cria pasta
+- echo texto > texto.txt = cria um arquivo com o "texto"
+- del = deleta arquivos 
+- rmdir nomediretório /S /Q = remove diretório
 
-- 3 peitos de frango cortados em cubos
-- 1 dente de alho picado
-- sal a gosto
-- pimenta a gosto
-- 1 cebola picada
-- 2 colheres (sopa) de maionese
-- 1 colher de manteiga
-- 1/2 copo de ketchup
-- 1/3 copo de mostarda
-- 1 copo de cogumelos
-- 1 copo de creme de leite
-- batata palha a gosto
+## Comandos do Git:
 
-## Modo de preparo
-
-1. Em uma panela, misture o frango, o alho, a maionese, o sal e a pimenta.
-2. Em uma frigideira grande, derreta a manteiga e doure a cebola.
-3. Junte o frango temperado até que esteja dourado.
-4. Adicione os cogumelos, o ketchup e a mostarda.
-5. Incorpore [o creme de leite](https://www.tudogostoso.com.br/noticias/creme-de-leite-fresco-caseiro-de-caixinha-e-mais-a5193.htm) e retire do fogo antes de ferver.
-6. Sirva com arroz branco e batata palha.
-
-Fonte: tudogostoso.com.br
+- git init = inicia o Git na pasta
+- git config --global user.email e git config --global user.name = adiciona credenciais (recomendado: usar mesmas credenciais do GitHub)
+- git add * = adiciona tudo, TUDO aaaa rs
+- git add nomedoarquivo = adiciona o arquivo
+- git commit -m "mensagem do commit" = commita
+- git status = status do repositório, coisas a commitar, etc
+- mv nomedoarquivo ./pasta/ = move para a pasta
+- git remote add origin linkdorepositório = 1º passo pra mandar as coisas pro GitHub
+- git branch -M main + git push -u origin main = manda pro git (pesquisar mais esse ponto, fiz como estava no GitHub, diferente da aula #medo)
+- git clone linkdorepositório = clona repositório para o computador
